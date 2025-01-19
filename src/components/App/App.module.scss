@@ -49,3 +49,11 @@
 			}
 	}
 }
+
+@media(max-width: 768px) {
+	.button {
+		display: block;
+		width: calc($base-size * 15);
+		font-size: calc($base-size * 3);
+	}
+}

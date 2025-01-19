@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Timer.module.scss';
 
-function Timer({ time }) {
+const Timer = ({ time }) => {
   const formatTime = (milliseconds) => {
     const ms = milliseconds % 1000;
     const totalSeconds = Math.floor(milliseconds / 1000);
